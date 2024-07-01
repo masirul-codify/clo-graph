@@ -1,0 +1,84 @@
+@import 'breakpoints';
+
+// Responsive Query
+@mixin hd {
+
+	/* Hight Resoulation devices */
+	@media (min-width: #{$hd + 1}) {
+		@content;
+	}
+}
+
+@mixin xxl {
+	
+	/* Extra large devices */
+	@media (max-width: #{$xxl}) {
+		@content;
+	}
+}
+
+@mixin ml {
+
+	/* Medium Large devices */
+	@media (max-width: #{$ml}) {
+		@content;
+	}
+}
+
+@mixin xl {
+
+	/* Medium Large devices */
+	@media (max-width: #{$xl}) {
+		@content;
+	}
+}
+
+@mixin lg {
+
+	/* Large devices */
+	@media (max-width: #{$lg}) {
+		@content;
+	}
+}
+
+@mixin md {
+
+	/* Medium devices */
+	@media (max-width: #{$md}) {
+		@content;
+	}
+}
+
+@mixin sm {
+
+	/* Small devices */
+	@media (max-width: #{$sm}) {
+		@content;
+	}
+}
+
+@mixin xs {
+
+	/* Extra small devices */
+	@media (max-width: #{$xs}) {
+		@content;
+	}
+}
+
+@mixin vxs {
+
+	/* Extra small devices */
+	@media (max-width: #{$vxs}) {
+		@content;
+	}
+}
+
+
+/* Transition */
+@mixin transition{
+	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+}

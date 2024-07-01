@@ -1,0 +1,75 @@
+:root {
+    /*==================*/
+    --theme-color: #D64C0C;
+    --theme-color2: #008060;
+    --title-color: #003B4A;
+    --body-color: #4A5060;
+    --white-color: #ffffff;
+    --light-color: #656565;
+    --black-color: #000000; 
+  
+    --gray-color: #FAECE5;   
+    --gray-color2: #FEFEFE;
+    // --border-color: 1px solid #003b184d;
+    --border-color: #4a506033; 
+  
+    --fonts-poppins: "Poppins", sans-serif;
+    --fonts-amatic: "Amatic SC", sans-serif;
+    --fonts-playfair: "Playfair Display", serif; 
+    --icon-font: "Font Awesome 6 Pro";
+    --main-container: 1296px;
+    --container-gutters: 30px;
+    --section-space: 150px;
+    --section-space-mobile: 80px;
+    --section-title-space: 60px;
+    --ripple-ani-duration: 5s;
+  }
+  
+  // Color Variation
+  /*==================*/
+  
+  $theme-color : var(--theme-color);  
+  $theme-color2 : var(--theme-color2); 
+  $title-color : var(--title-color);
+  $body-color : var(--body-color);
+  $white-color : var(--white-color);
+  $light-color : var(--light-color);
+  $black-color : var(--black-color);
+  
+  $gray-color : var(--gray-color);
+  $gray-color2 : var(--gray-color2);
+  
+  
+  $border-color : var(--border-color);
+  
+  // Font Variation
+  $icon-font : var(--icon-font);
+  
+  // Typography
+  $title-font : var(--fonts-playfair);
+  $body-font : var(--fonts-poppins);
+  $style-font : var(--fonts-amatic);
+  $body-font-size : 18px;
+  $body-line-Height: 28px;
+  $body-font-size2 : 14px;
+  $body-line-Height2: 24px;
+  $body-font-size3 : 12px;
+  $body-line-Height3: 22px;
+  $body-font-weight: 400;
+  $p-line-Height : 1.75;
+  
+
+  
+  // Spacing Count with 5x
+  $space-count: 10;
+  
+  // Section Space  For large Device
+  $space : var(--section-space);
+  $space-extra : calc(var(--section-space) - 45px);
+  $space-extra2 : calc(var(--section-space) - 60px);
+  $space2 : calc(var(--section-space) - 20px);
+  
+  // Section Space On small Device
+  $space-mobile : var(--section-space-mobile);
+  $space-mobile-extra: calc(var(--section-space-mobile) - 30px);
+  

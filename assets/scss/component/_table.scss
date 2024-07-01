@@ -1,0 +1,32 @@
+@use '../utils' as *;
+
+/* Table */
+thead{
+text-align: center;
+    th{
+        background-color: #323A46!important;
+        color: $white-color!important;
+
+    }
+}
+
+tbody{
+    tr{
+        td{
+            border: 1px solid #E0E8EE!important;
+            text-align: center;
+
+            i.fa-xmark{
+                 color: red;
+            }
+        }
+    }
+}
+
+.table>:not(caption)>*>* { 
+    border: 1px solid #E0E8EE!important;
+}
+
+.table-bordered{ 
+    border: 5px solid #0f0f0f!important;
+}

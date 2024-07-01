@@ -1,0 +1,98 @@
+@use '../utils' as *;
+
+
+.w-img{
+	& img{
+		width: 100%;
+	}
+}
+.m-img{
+	& img{
+		max-width: 100%;
+	}
+}
+
+.fix {
+    overflow:hidden
+}
+.clear{
+    clear: both;
+}
+
+.z-index-1{
+	z-index: 1;
+}
+
+.z-index-11{
+	z-index: 11;
+}
+
+.overflow-y-visible{
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+.overflow-x-visible{
+	overflow-x: visible;
+	overflow-y: hidden;
+}
+
+.p-relative{
+	position: relative;
+}
+.p-absolute{
+	position: absolute;
+}
+
+
+.container-fluid{
+	padding: 0px 150px;
+    @include xxl{
+        padding: 0px 50px;
+    }
+    @include xs{
+        padding: 0px 15px;
+    }
+}
+
+@include ml {
+    :root {
+        --main-container: 1296px;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1370px) {
+    .th-container2 {
+        --main-container: 1470px;
+        .container {
+            --main-container: 1296px;
+            padding: 0;
+        }
+    }
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1296px;
+        padding: 0;
+    }
+}
+ 
+@media only screen and (min-width: 1300px) {
+    .container {
+        --main-container: 1296px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .container-fluid.px-0 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+
+        .row {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+    }
+}
+ 
